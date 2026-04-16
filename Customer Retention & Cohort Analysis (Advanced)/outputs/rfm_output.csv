@@ -1,0 +1,4 @@
+customer_id,last_purchase,frequency,monetary,recency_score,frequency_score,monetary_score
+1,2023-02-10,2,1200,2,2,2
+4,2023-03-01,1,300,1,1,1
+5,2023-04-01,2,2200,3,3,3
