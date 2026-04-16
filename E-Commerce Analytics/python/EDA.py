@@ -1,4 +1,6 @@
 import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 orders = pd.read_csv("data/processed/orders_cleaned.csv")
 
@@ -21,3 +23,10 @@ outliers = orders[(orders['amount'] < q1) | (orders['amount'] > q3)]
 
 print(revenue)
 print(outliers)
+
+# Distribution
+sns.histplot(df['amount'])
+plt.show()
+
+# Correlation
+print(df.corr(numeric_only=True))
