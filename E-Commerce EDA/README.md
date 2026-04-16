@@ -1,3 +1,0 @@
-- Cleaned 100K+ rows
-- Identified top revenue categories
-- Found seasonal sales trends
