@@ -1,12 +1,12 @@
--- Clean customers
+-- Clean Customers Table
 CREATE TABLE customers_cleaned AS
 SELECT 
     customer_id,
     COALESCE(signup_date, DATE '2023-01-01') AS signup_date,
-    country
+    COALESCE(country, 'Unknown') AS country
 FROM customers;
 
--- Clean orders
+-- Clean Orders Table
 CREATE TABLE orders_cleaned AS
 SELECT 
     order_id,
