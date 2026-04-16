@@ -60,6 +60,7 @@ Before performing analysis, data quality checks are applied using `sql/validatio
 
 This ensures that all insights are based on clean and reliable data.
 
+---
 
 ## 🔍 Key Analysis Performed
 
