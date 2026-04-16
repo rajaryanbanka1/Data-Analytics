@@ -45,6 +45,22 @@ Tables used:
 
 ---
 
+## 🧪 Data Validation Layer
+
+Before performing analysis, data quality checks are applied using `sql/validation.sql`.
+
+### Checks Performed:
+
+* Duplicate records
+* NULL values in critical fields
+* Negative or invalid amounts
+* Orphan records (missing foreign key relationships)
+* Date inconsistencies
+* Future date anomalies
+
+This ensures that all insights are based on clean and reliable data.
+
+
 ## 🔍 Key Analysis Performed
 
 ### 1. Cohort Retention Analysis
